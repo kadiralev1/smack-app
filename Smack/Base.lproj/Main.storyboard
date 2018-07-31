@@ -362,7 +362,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="createAccuntPressed:" destination="HUq-EQ-eOO" eventType="touchUpInside" id="8c2-2q-Gbk"/>
+                                    <action selector="createAccountPressed:" destination="HUq-EQ-eOO" eventType="touchUpInside" id="bTq-fJ-YHx"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="jVm-T8-QT6">
@@ -413,7 +413,7 @@
                         <outlet property="passTxt" destination="jBa-8L-xnW" id="0LM-wf-VS9"/>
                         <outlet property="userImg" destination="jVm-T8-QT6" id="ZFG-0x-pxO"/>
                         <outlet property="usernameTxt" destination="m4z-CB-vDE" id="uus-sb-Eqo"/>
-                        <segue destination="GXa-bF-z8L" kind="unwind" unwindAction="prepareForUnwindWithSegue:" id="DlW-uS-J48"/>
+                        <segue destination="GXa-bF-z8L" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="DlW-uS-J48"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9jT-PV-t4I" userLabel="First Responder" sceneMemberID="firstResponder"/>

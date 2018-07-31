@@ -24,6 +24,7 @@
 		284057C6210FD3F90061234F /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284057C5210FD3F90061234F /* UserDataService.swift */; };
 		284057C8211074C20061234F /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284057C7211074C20061234F /* AvatarPickerVC.swift */; };
 		284057CA2110766B0061234F /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284057C92110766B0061234F /* AvatarCell.swift */; };
+		284057CC211091390061234F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284057CB211091390061234F /* CircleImage.swift */; };
 		E29F6763E7212179B0663FB3 /* Pods_Smack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199A6A217C60DD9D659DB88B /* Pods_Smack.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		284057C5210FD3F90061234F /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		284057C7211074C20061234F /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		284057C92110766B0061234F /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		284057CB211091390061234F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		C6EB0E6FECEDB4D418E48C10 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
 		F265DFF6A09E5CD285327B3D /* Pods-Smack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -139,6 +141,7 @@
 				284057B7210F57840061234F /* GradientView.swift */,
 				284057C3210FAD680061234F /* RoundedButton.swift */,
 				284057C92110766B0061234F /* AvatarCell.swift */,
+				284057CB211091390061234F /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				284057AF210E91210061234F /* SWRevealViewController.m in Sources */,
 				284057B6210E94540061234F /* ChannelVC.swift in Sources */,
 				284057C8211074C20061234F /* AvatarPickerVC.swift in Sources */,
+				284057CC211091390061234F /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
